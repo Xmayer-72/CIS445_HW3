@@ -1,0 +1,19 @@
+*{
+    /** outline for debugging of layout**/
+    /**outline: solid;**/
+}
+body{
+    background-color: lightcyan;
+    min-width: 475px;
+    width: 75%;
+    padding-left: 20px;
+}
+.content{
+    background-color: lightblue;
+    height: 100%;
+}
+#title{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: lightseagreen;
+}
