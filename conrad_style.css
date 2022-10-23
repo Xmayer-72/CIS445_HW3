@@ -1,19 +1,34 @@
 *{
     /** outline for debugging of layout**/
     /**outline: solid;**/
+    font-family: monospace;
+    color: black;
 }
 body{
     background-color: lightcyan;
-    min-width: 475px;
+    min-width: 600px;
     width: 75%;
     padding-left: 20px;
 }
+td{
+    vertical-align: top;
+}
 .content{
     background-color: lightblue;
-    height: 100%;
+    height: 90%;
+}
+.text{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16;
 }
 #title{
     text-transform: uppercase;
     text-align: center;
     background-color: lightseagreen;
+}
+#profile{
+    align-self: center;
+    width: 200px;
+    outline: dotted lightcoral;
 }
